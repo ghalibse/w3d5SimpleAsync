@@ -9,11 +9,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.simpleasyncokhttp.MainActivity">
 
-
-    <ListView
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/lst_view">
-
-    </ListView>
+        android:id="@+id/btn1"
+        android:onClick="doMagic"/>
 </LinearLayout>
